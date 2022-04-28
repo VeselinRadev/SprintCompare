@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.veselin.sprintcompare">
+
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+    <uses-permission android:name="android.permission.READ_PHONE_STATE" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.SprintCompare">
+        <activity android:name=".acitvities.GroupDetails"></activity>
+        <activity android:name=".acitvities.RunStatisticsActivity" />
+        <activity android:name=".acitvities.RunStatisticsFromGroupActivity" />
+        <activity
+            android:name=".acitvities.MainActivity"
+            android:screenOrientation="portrait" />
+        <activity android:name=".acitvities.RegisterActivity" />
+        <activity android:name=".acitvities.LoginActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".acitvities.CountDown"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".acitvities.SpeedometerActivity"
+            android:screenOrientation="portrait" />
+    </application>
+
+</manifest>

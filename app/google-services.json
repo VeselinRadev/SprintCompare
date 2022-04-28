@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "789639301144",
+    "firebase_url": "https://sprintcompare.firebaseio.com",
+    "project_id": "sprintcompare",
+    "storage_bucket": "sprintcompare.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:789639301144:android:a86bfa2c41564abda25b6d",
+        "android_client_info": {
+          "package_name": "com.veselin.sprintcompare"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "789639301144-97vpv2kn7llmrtfnbu9i27pb34o3abin.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.veselin.sprintcompare",
+            "certificate_hash": "6b76b7eb5167a611e5b2e384b5231bdb8ffa6aa0"
+          }
+        },
+        {
+          "client_id": "789639301144-6r1hgrjr6lf1srart4s5nf6u36agr9rg.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDeSmm0aGXZg624cydkJhH4ODo8FVdyIkI"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "789639301144-6r1hgrjr6lf1srart4s5nf6u36agr9rg.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
